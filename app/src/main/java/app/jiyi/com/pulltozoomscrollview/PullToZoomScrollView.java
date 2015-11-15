@@ -127,7 +127,7 @@ public class PullToZoomScrollView extends ScrollView{
                     // 当滚动到最上或者最下时就不会再滚动，这时移动布局
                     if (isNeedMove()) {
                         if (normal.isEmpty()) {
-                            Log.e("normal",mFirstChild.getLeft()+"  "+mFirstChild.getTop()+"  "+mFirstChild.getBottom()+"  "+mFirstChild.getRight()+"   "+mFirstChild.getHeight());
+                            Log.e("normal",mFirstChild.getLeft()+"  "+mFirstChild.getTop()+" i "+mFirstChild.getBottom()+"  "+mFirstChild.getRight()+"   "+mFirstChild.getHeight());
                             // 保存正常的布局位置
                             normal.set(mFirstChild.getLeft(), mFirstChild.getTop(), mFirstChild.getRight(), mFirstChild.getBottom());
                         }
